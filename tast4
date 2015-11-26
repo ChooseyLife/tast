@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-cn">
+    <!--[if lt IE 9]> 
+        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script> 
+    <![endif]--> 
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no">
+	<title>网页标题</title>
+	<meta name="keywords" content="关键字列表" />
+	<meta name="description" content="网页描述" />
+	<link rel="stylesheet" type="text/css" href="css/tast4.css" />
+	<link rel="stylesheet" type="text/css" href="css/media-queries.css" />
+	<style type="text/css">
+	
+	</style>
+</head>
+<body style="height:100%;">
+	<div id="box">
+		<div class="header">
+			<div class="hTop">
+				<div class="homeL">
+					<img src="img/home.png" style="width:70%;"/>
+				</div>
+					<p>游戏结果</p>
+				<div class="helpR">
+					<img src="img/help.png" style="width:75%;"/>
+				</div>
+		</div>
+		</div>
+		<div style="width:100%;" class="main">
+			<div class="result">
+				<p class="sl">卧底胜利</p>
+			</div> 
+			<div class="good">
+				<span class="Sp1">太棒了!你知道么？在捉鬼游戏中只有20%的卧底取得游戏最终的胜利哦!</span>
+			</div>
+			<div style="clear:both;"></div>   
+		</div>
+	</div>
+</body>
+</html>
