@@ -1,0 +1,244 @@
+html{font-size:62.5%;background:#fafafa;}
+	@font-face {
+		 font-family: Hiragino Sans GB W3;
+		 src: url(family/HiraginoSansGBW3/HiraginoSansGBW3.otf);
+	}
+	p,span,h1,h2,h3,h4,h5,a{font-family: Hiragino Sans GB W3;}
+	.wrap{width:100%;max-width:1600px;}
+	
+	/*service start*/
+	.service span{color:#a4d7be;}
+	.service ul{
+		padding:.834rem 0;
+		width:100%;
+		max-width:1200px;
+		overflow:hidden;
+		margin:0 auto;
+	}
+	.service .hstop{overflow:hidden;width:100%;max-width:1200px;margin:0 auto;}
+	.service .hotleft{float:left;width:190px;line-height:4.1rem;}
+	.service .loginright{float:right;width:145px;}
+	.service .hotleft span{float:left;}
+	.service ul a{float:right;margin:0 .5rem;padding:1.2rem 1.4rem;}
+	.weixin {background:url(../img/tast10/sprite.png)no-repeat 0 0;}
+	.QQ{background:url(../img/tast10/sprite.png)no-repeat 0 -44px;}
+	.weibo{background:url(../img/tast10/sprite.png)no-repeat 0 -88px;}
+	/*service end*/
+	
+	/*mainNav start*/
+	
+	.mainNav *{
+		color:white;
+		font-size:1.6rem;
+	}
+	.mainNav{
+		background-color:#29b078;
+		width:100%;
+		max-width:1600px;
+	}
+	.Nav-wrap{
+		width:100%;
+		max-width:1200px;
+		margin:0 auto;
+		overflow:hidden;
+	}
+	.Nav-wrap p{display:inline-block;float:right;padding:2.584rem}
+	.shouye{
+		border-bottom:.4rem solid white;
+	}
+	.mainNav .tree{
+		background:url(../img/tast10/sprite1.png)no-repeat -386px 19px;
+		padding:3.4%;
+	}
+	/*mainNav end*/
+	
+	/*banner*/
+		.banner{position:relative;}
+		.banner img{width:100%;}
+		.banner span{
+			position:absolute;
+			color:#81838f;
+			cursor:pointer;
+			line-height:33px;
+		}
+		.banner div{
+			position:absolute;
+			border:1px solid #cecdd1;
+			top:465px;
+			width:16px;height:14px;
+			border-radius:16px;
+		}
+		.bl{font-size:50px;top:183px;left:243px;}
+		.br{font-size:50px;top:183px;right:243px;}
+		
+		.bradius1{
+			left:740px;
+			background-color:#29b078;
+		}
+		.bradius2{
+			left:770px;
+		}
+		.bradius3{
+			left:800px;
+		}
+	/*banner end*/
+	
+	/*main start*/
+	
+	/*main content*/
+	.content{width:100%;max-width:1200px;margin:5% auto 0;overflow:hidden;}
+	.content .tab{width:215px;float:left;margin-right:8rem;margin-top:2rem;}
+	.content .tabr{
+		width:150px;
+		float:right;
+		padding-left:7.5rem;
+		background:url(../img/tast10/line.png)repeat-y;
+		padding-top:4rem;padding-bottom:15rem;
+	}
+	.content h2{
+		font-size:1.8rem;text-align:center;
+	}
+	.content p,span{font-size:1.4rem;}
+	.content .tab h2{
+		
+		padding-top:90px;
+		padding-bottom:20px;
+		margin:0 auto;
+		width:84px;
+		text-align:center;
+		background:url(../img/tast10/sprite.png)no-repeat -36px 0;
+	}
+	.content .tab p{
+		font-size:1.6rem;
+		color:#999999;
+	}
+	.content .tabr h2{
+		background:url("../img/tast10/sprite.png") no-repeat scroll left -127px;
+		color:#29b078;
+		padding-left:2rem;
+	}
+	.content .tabr p{
+		color:#999999;
+		font-size:1.4rem;
+	}
+	
+	.content .tab2 ul li{float:left;height:71px;margin-top:6rem;}
+	.content .tab2 p{
+		display:inline-block;
+		width:13.4rem;
+		line-height:40px;
+		color:#999999;
+	}
+	.content .tab2 span{
+		background:#fff;
+			border-radius:50%;
+			box-shadow:1px 1px 1px 1px #e6e6e6;
+			display:inline-block;
+			width:70px;
+			line-height:70px;
+			text-align:center;
+			color:#29b078;
+			font-size:1.8em;
+			font-weight:bold;
+			margin-right:2rem;
+			float:left;
+	}
+	.content .tab2 .tab2-list2{
+		background:url("../img/tast10/sprite.png") no-repeat scroll -463px -332px;
+		padding-left:5%;
+	}
+	.content .tab2 .tab2-list3{
+		background:url("../img/tast10/sprite.png") no-repeat scroll -463px -332px;
+		padding-left:5%;
+	}
+	.content .tab2 .tab2-list3 p{
+		margin-top:1.5rem;
+	}
+	
+	
+	
+	.content .tab3 {
+		width:285px;
+		margin-top:5rem;
+		border:1px solid #eeeded;
+		background-color:white;
+		box-shadow:2px 2px 2px  2px #eeeded;
+		float:left;
+		margin-right:1.08rem;
+	}
+	.content .tab3 p{
+		font-size:1.8rem;
+		font-weight:bold;
+		width:15rem;
+		margin:0 auto;
+		padding-top:16rem;
+		background:url("../img/tast10/sprite.png") no-repeat scroll -140px -167px;
+	}
+	.content .tab3 span{
+		font-size:1.6rem;
+		color:#999;
+		display:inline-block;
+		padding:2rem 3.5rem;
+	}
+	.tab3img{text-align:center;}
+	.tab3img img{
+		
+	}
+	
+	.content .tab4{
+		border:1px solid #eeeded;
+		background:white;overflow:hidden;
+		margin-top:5%;
+		box-shadow:2px 2px 2px  2px #eeeded;
+		margin-bottom:5%;
+	}
+	.content .tab4-list{
+		background:url("../img/tast10/sprite.png") no-repeat scroll -282px -62px;
+		padding:5% 11.03%;
+		width:35px;
+		float:left;
+	}
+	/*end*/
+	
+	/*footer*/
+	
+		/*footer*/
+	.footer{background:#26a26f;color:white;font-size:14px;}
+	.footer a{color:white;}
+	
+	/*footerMain*/
+	.footer .footerMain{
+		width:100%;max-width:1200px;margin:0 auto;overflow:hidden;
+	}
+	.footer .footerMain .fMleft{
+		width:200px;float:left;
+	}
+	.footer .footerMain .fMmid{
+		width:225px;float:left;margin-left:125px;
+	}
+	.footer .footerMain .fMmid span{padding-right:25px}
+	.footer .footerMain .fMright{
+		width:195px;float:right;
+	}
+	.footer .footerMain .fMright .gongzhonghao{
+		padding:35px 0 93px;font-size:19px;
+		background:url("../img/tast8/sprite.png") no-repeat -406px -348px;
+	}
+	
+	.footer .footerMain .fMp{padding:35px 0;}
+	
+	.footer .footerMain .fMleft .fMspan{
+		border-left:1px solid;border-right:1px solid;
+		padding:0 8px;
+	}
+	/*ICP±¸ºÅ*/
+	.footer .ICP{
+		border-top:1px solid #32c086;
+		font-size:12px;margin:15px auto 0;text-align:center;
+	}
+	.footer .ICP-top{width:551px;overflow:hidden;margin:0 auto;}
+	.footer .ICP-p{margin:0 auto;float:left;}
+	/*hover*/
+	.footer  a:hover{
+			border-bottom:1px solid white;
+		}

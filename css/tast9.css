@@ -1,0 +1,77 @@
+body{
+		background:#fafafa;
+	}
+	@font-face {
+		 font-family: Hiragino Sans GB W3;
+		 src: url(family/HiraginoSansGBW3/HiraginoSansGBW3.otf);
+	}
+	p,span,h1,h2,h3,h4,h5,a{font-family: Hiragino Sans GB W3;}
+	/*main*/
+	.main{width:1200px;margin:0 auto;}
+	
+	/*main .mtop*/
+	.main .mtop p{padding:30px 0;border-bottom:1px solid #d0d6d9;}
+	.main .mtop a{color:black;}
+	.main .mtop ul{padding:23px 0;overflow:hidden;border-bottom:1px solid #edf1f2;}
+	.main .mtop ul li{float:left;font-size:14px;padding:0 15px;color:#494949;}
+	.main .mtop ul span{float:left;color:#a1a1a1;}
+	.main .mtop ul .all{background:#41b683;color:white;margin-left:20px;padding:1px 1px;}
+	
+	/*main .qianduan*/
+	.main .qianduan ul{overflow:hidden;}
+	.main .qianduan ul li{
+		background:white;
+		border:1px solid #eeeded;
+		overflow:hidden;
+		width:385px;
+		float:left;
+		position:relative;
+		transition: 2s ease-in-out 0s;
+	}
+	.main .qianduan .fangxiang{
+		font-size:16px;
+		color:#333333;
+		padding:28px 0;
+		border-bottom:1px solid #d0d6d9;
+		margin-bottom:40px;
+	}
+	
+	
+	/*qianduan*/
+	.qianduan .img{width:151px;float:left;padding:10px 0;}
+	.qianduan .wenzi{float:right;width:220px;padding:20px 0}
+	
+	.menkan{height:22px;width:180px;border-right:1px solid #edf1f2;float:left;}
+	.menkan span{
+		color:#d3d3d3;
+		padding-left:13px;padding-right:35px;
+		display:inline-block;
+		font-size:12px;
+		background:url("img/tast9/star.png") no-repeat scroll 56px 1px;
+	}
+	.menkan .star{display:inline-block;}
+	
+	.easy{
+		width:200px;color:#d3d3d3;font-size:12px;height:22px;line-height:22px;
+		background:url("img/tast9/star.png") no-repeat scroll 68px 3px;
+		overflow:hidden;display:block;width:97px;padding-left:8px;
+	}
+	.qianduan .zhouqi {
+		height:22px;width:167px;
+		border-right:1px solid #edf1f2;float:left;color:#d3d3d3;
+		font-size:12px;line-height:22px;padding-left:13px;
+	}
+	.qianduan .chengdu {
+		color:#d3d3d3;font-size:12px;height:22px;line-height:22px;
+		overflow:hidden;display:block;width:185px;padding-left:8px;
+	}
+	.qianduan .daiyu{
+		color:#d3d3d3;font-size:12px;width:126px;border-right:1px solid #edf1f2;
+		padding-left:13px;padding-top:37px;padding-bottom:36px;float:left;
+		text-align:center;
+	}
+	.qianduan .xinzi{
+		float:right;font-size:12px;width:245px;
+	}
+	.qianduan .xinzi p{border-bottom:1px solid #edf1f2;overflow:hidden;}
+	.qianduan .xinzi span{padding-top:5px;padding-bottom:5px;}

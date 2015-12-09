@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-cn">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>网页标题</title>
+	<meta name="keywords" content="关键字列表" />
+	<meta name="description" content="网页描述" />
+	<link rel="stylesheet" type="text/css" href="" />
+	<style type="text/css">
+		body{
+		background:#bbffbb;
+		}
+		input{
+			background:red;
+			color:white;
+		}
+		#div1{
+			overflow:hidden;
+		}
+		#old1{
+			border:10px solid black;
+			width:100px;
+			height:100px;
+			float:left;
+		}
+		#new1{
+			border:20px solid #ecffff;
+			width:290px;
+			height:195px;
+			margin-right:auto;
+			margin-left:auto;
+			display:none;
+			background:white;
+		}
+		
+		.col1{
+			float:left;
+		}
+		.col{float:left;margin-left:36px;}
+		#div1{overflow:hidden;}
+	</style>
+	<script type="text/javascript">
+		window.onload = show();
+		function show(){
+			var input1 = document.getElementById('new1');
+			input1.style.display = "block";
+			document.body.style.background = "#f0f0f0";
+		}
+		function showRed(){
+			var input1 = document.getElementById('old1');
+			old1.style.background = "red";
+		}
+		function showBu(){
+			var input1 = document.getElementById('old1');
+			old1.style.background = "blue";
+		}
+		function showYe(){
+			var input1 = document.getElementById('old1');
+			old1.style.background = "yellow";
+		}
+		/*function colout(){
+			var input1 = document.getElementById('old1');
+			old1.style.background = "#bbffbb";
+		}*/
+		function show2(){
+			var input1 = document.getElementById('old1');
+			old1.style.width = "200px";
+		}
+		function show3(){
+			var input1 = document.getElementById('old1');
+			old1.style.width = "300px";
+		}
+		function show4(){
+			var input1 = document.getElementById('old1');
+			old1.style.width = "400px";
+		}
+		/*function width1(){
+			var input1 = document.getElementById('old1');
+			old1.style.width = "100px";
+		}*/
+		function showh2(){
+			var input1 = document.getElementById('old1');
+			old1.style.height = "200px";
+		}
+		function showh3(){
+			var input1 = document.getElementById('old1');
+			old1.style.height = "300px";
+		}
+		function showh4(){
+			var input1 = document.getElementById('old1');
+			old1.style.height = "400px";
+		}
+		
+	</script>
+</head>
+<body>
+<strong style="font-size: 26px;">请为下面的DIV设置样式：</strong>
+<input id="showme" type="button" value="点击设置"  onclick="show()"/>
+<div id="div1">
+	<div id="old1"></div>
+	<div id="new1">
+		<span>
+			<div class="col1">请选择颜色：</div>
+			<div class="col" style="background:red;" onmouseover="showRed()" onmouseout="colout()">
+			红
+			</div>
+			<div class="col" style="background:yellow;" onmouseover="showYe()" onmouseout="colout()">黄</div>
+			<div class="col" style="background:blue;" onmouseover="showBu()" onmouseout="colout()">蓝</div>
+		</span>
+		<span>
+			<div class="col1">请选择宽：</div>
+			<div class="col"  onmouseover="show2()" onmouseout="width1()">200
+			</div>
+			<div class="col"  onmouseover="show3()"			onmouseout="width1()">300
+			</div>
+			<div class="col"  onmouseover="show4()" onmouseout="width1()">400
+			</div>
+		</span>
+		<span>
+			<div class="col1">请选择高：</div>
+			<div class="col"  onmouseover="showh2()" onmouseout="height1()">200
+			</div>
+			<div class="col"  onmouseover="showh3()"			onmouseout="height2()">300
+			</div>
+			<div class="col"  onmouseover="showh4()" onmouseout="height3()">400
+			</div>
+		</span>
+	</div>
+	<div></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+    <!--[if lt IE 9]> 
+        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script> 
+    <![endif]--> 
+	
+	@media screen and (max-width: 320px) { 
+ 
+    #box  .main .result p{ 
+        padding:28% 36% 9%;
+		font-size:1.4em;
+    } 
+ 
+} 

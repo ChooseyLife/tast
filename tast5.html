@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus?">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <link rel="stylesheet" type="text/css" href="css/tast5.css" />
+  <title>首页</title>
+ </head>
+ <style>
+	.foot span{color:#29bde0;display:inline-block;font-size:170%;}
+	.foot .notice{background:url(img/notice.png)no-repeat 0 4px;padding:6px 13%;}
+	.foot .yuan{background:url(img/yuan.png)no-repeat 0 4px;padding:6px 13%;}
+	.foot .help{background:url(img/help.png)no-repeat 0 4px;padding:6px 13%;}
+	.foot .about{background:url(img/about.png)no-repeat 0 4px;padding:6px 13%;}
+	.foot{width:60%;padding-bottom:117%;padding-top:3%;position:absolute;
+		top:-19px;left:109px;
+	}
+	.foot li{background:white;border-bottom:1px solid #c9c9c9;padding:4% 0;line-height:37px;}
+	.foot img{padding-bottom:3%;padding-left:5%;padding-top:4%;}
+	#box .header .htop .chuxian{cursor:pointer;width:9%;display:block;padding-left:2%;}
+	
+	.foot .ftop{background-color:#29BDE0;height:72px;}
+	
+	/*#box .header .htop img:hover+.main{position:absolute;}
+	#box .header .htop img:hover+.main+.foot{display:block;}*/
+	
+	/*click-like*/
+	#passer {
+		display: none;
+	}
+	#passer:checked ~ .header {
+		transition: 1s;
+		-webkit-transition: 1s;
+		-moz-transition: 1s;
+		transform: translateX(77.03125%);
+		-webkit-transform: translateX(77.03125%);
+		-moz-transform: translateX(77.03125%);
+	}
+	#passer:checked ~ .header .foot{
+		box-shadow: -2px 7px 20px #C8C8C8;
+	}
+ </style>
+ <body>
+  <div id="box">
+			<input id="passer" type="checkbox" />
+			<div class="foot">
+				<div class="ftop">
+					
+				</div>
+				<ul class="nav">
+					<li><span class="notice">公告</span></li>
+					<li><span class="yuan">设置</span></li>
+					<li><span class="help">帮助</span></li>
+					<li><span class="about">关于</span></li>
+				</ul>
+			</div>
+			<div class="header">
+				<div class="htop">
+
+					<label for="passer">
+						<img src="img/more.png" class="chuxian"/></label>
+					<div class="main">
+							<div class="mtop">
+									<span>
+										上次游戏：捉鬼猜词版
+									</span>
+							</div>
+							<div class="mfoot">
+								<p class="mP1">抓鬼游戏</p>
+								<p class="mP2">简化版</p>
+								<p class="mP3">有1133个用户正在玩此款游戏</p>
+								
+								<p class="mP2">猜词版</p>
+								<img src="img/next.png" class="mImg1"/>
+								<p class="mP3">有1133个用户正在玩此款游戏</p>
+
+								<p class="mP2">白痴版</p>
+								<p class="mP3">有1133个用户正在玩此款游戏</p>
+								<p class="mImg2"><img src="img/vary.png"/></p>
+							</div>
+					</div>
+				</div>
+				
+			</div>
+	</div>
+ </body>
+</html>

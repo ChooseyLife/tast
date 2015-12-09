@@ -1,0 +1,355 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-cn">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>网页标题</title>
+	<meta name="keywords" content="关键字列表" />
+	<meta name="description" content="网页描述" />
+	<link rel="stylesheet" type="text/css" href="" />
+	<style type="text/css">
+		body{background:#fafafa none repeat scroll 0 0;}
+		
+		
+		@font-face {
+			  font-family: Hiragino Sans GB W3;
+			  src: url(family/HiraginoSansGBW3/HiraginoSansGBW3.otf);
+		}
+			  
+		
+		ul,li,body,span,p,h3,h2{margin:0;padding:0;}
+		a{text-decoration:none;}
+		ul,li{list-style:none;}
+		h2{color:#333;}
+		#warp{width:100%;max-width:1600px;}
+		#warp .header{overflow:hidden;line-height:2.69em;}
+		
+		.header .htop{overflow:hidden;width:1200px;margin:0 auto;}
+		.header .htop .sP1{color:#29b078;float:left;padding-top:9px;padding-bottom:9px;font-size:1em;}
+		.header .htop ul .weixin{background:url("img/tast7/sprite.png") no-repeat scroll left 0;}
+		.header .htop ul .QQ{background:url("img/tast7/sprite.png") no-repeat scroll left -44px;}
+		.header .htop ul .weibo{background:url("img/tast7/sprite.png") no-repeat scroll left -88px;}
+		.header .htop ul{float:right;padding-top:0.49em;}
+		.header .htop li{list-style:none;float:left;width:1.5em;padding:12px 10px;}
+		/* 上面是头部顶部 */
+		.header .hmain{background-color:#29b078;overflow:hidden;width:100%;max-width:1920px;}
+		.header .hmain .nav{width:980px;margin:0 auto;overflow:hidden;}
+		.header .hmain ul{float:right;width:395px;}
+		.header .hmain ul li{float:left;padding:32.5px 30px;margin:0 3px;}
+		.hmain ul li a{font-size:1em;color:white;font-weight:bold;}
+		.hmain  ul .index{border-bottom:4px solid white;}
+		.hmain .banner{width:100%;max-width:1920px;}
+		.hmain .banner img{}
+		/* 上面是banner和导航 */
+		#mtop_li{width:229px;height:188px;}
+		.mtop ul {margin:95px auto;width:1200px;}
+		.mtop p,span{color:#999;}
+		.mtop{overflow:hidden;}
+		.mtop #mtop-li1{height:188px;width:229px;float:left;}
+		.mtop #mtop-li2{height:188px;width:229px;float:left;}
+		.mtop #mtop-li3{height:188px;width:229px;float:left;}
+		.mtop #mtop-li4{height:188px;width:229px;float:left;background: url("img/tast7/line.png") repeat-y;padding-bottom:7%;}
+		.mtop ul li{padding-right:3.4%;}
+
+		.mtop #mtop-li1 .d1{background:url(img/tast7/sprite.png)no-repeat scroll -25px 0;width:100px;height:52%;margin:0 auto;}
+		#mtop-li1 h3{text-align:center;}
+		#mtop-li1 p{padding:10% 0;}
+
+		.mtop #mtop-li2 .d1{background:url(img/tast7/sprite.png)no-repeat scroll -192px 0;width:100px;height:52%;margin:0 auto;}
+		#mtop-li2 h3{text-align:center;}
+		#mtop-li2 p{padding:10% 0;}
+
+		.mtop #mtop-li3 .d1{background:url(img/tast7/sprite.png)no-repeat scroll -104px 0;width:100px;height:52%;margin:0 auto;}
+		#mtop-li3 h3{text-align:center;}
+		#mtop-li3 p{padding:10% 0;}
+		
+		#mtop-li4 h3{text-align:center;}
+		#mtop-li4 .P1{background:url(img/tast7/sprite.png)no-repeat left -124px;margin-top:25%;padding:0 12.6%;margin-left:26.5%;margin-bottom:5%;color:#26a26f;font-size:1.2em;}
+		#mtop-li4 .P2{background:url(img/tast7/sprite.png)no-repeat left -124px;padding:0 12.6%;margin-left:26.5%;margin-top:15%;color:#26a26f;font-size:1.2em;margin-bottom:4%;}
+		#mtop-li4 span{margin-left:26.5%;}
+		/*banner下一部分的li*/
+		.main{overflow:hidden;}
+		.main .mmain{color:#999;}
+		.mmain ul {width:1200px;overflow:hidden;margin:0 auto;}
+		.mmain li {float:left;line-height:36px;margin-top:3%;}
+		.mmain h2{text-align:center;width:1200px;margin:0 auto;font-size:18px;padding-right:64px;}
+		.mmain li .sP3{
+			background:#fff;
+			border-radius:50%;
+			box-shadow:1px 1px 1px 1px #e6e6e6;
+			display:inline-block;
+			width:70px;
+			line-height:70px;
+			text-align:center;
+			color:#29b078;
+			font-size:1.6em;
+			margin-right:5%;
+			float:left;
+		}
+		.mmain li .sP4{color:black;display:inline-block;width:48%;width:48%;line-height:30px;}
+		.mmain ul .list-1{width:21.9%; }
+		.mmain ul .list-5{width:21.9%;margin:7.5% auto;}
+		.mmain ul .list-2{background:url("img/tast7/sprite.png") no-repeat scroll -445px -331px;padding-left:5%;width:21.81%;}
+		.mmain ul .list-6{background:url("img/tast7/sprite.png") no-repeat scroll -445px -331px;padding-left:5%;width:21.9%;margin:7.5% auto;}
+		.mmain ul .list-3{background:url("img/tast7/sprite.png") no-repeat scroll -445px -331px;padding-left:5%;width:19%;line-height:72px;}
+		.mmain ul .list-7{background:url("img/tast7/sprite.png") no-repeat scroll -445px -331px;padding-left:5%;width:19%;margin:7.5% auto;}
+		.mmain ul .list-4{background:url("img/tast7/sprite.png") no-repeat scroll -445px -331px;padding-left:5%;width:17.6%;line-height:72px;}
+		.mmain ul .list-8{background:url("img/tast7/sprite.png") no-repeat scroll -445px -331px;padding-left:4.9%;width:17.6%;margin:7.5% auto;}
+		/*上面部分代码如何学习*/
+		
+		.main .mfoot h2{text-align:center;margin-bottom:75px;font-size:18px;padding-right:60px;}
+		.main .mfoot ul{overflow:hidden;margin:0 auto;width:1300px;}
+		.main .mfoot li{float:left;border:1px solid #eeeded;}
+		.main .mfoot .stlist-1{width:272px;box-shadow:1px 1px 1px #eeeded;overflow:hiddenl;margin-right:51px;background:white;}
+			  .mfoot .stlist-1 b{background:url(img/tast7/sprite.png) no-repeat scroll -133px -178px;
+					padding-top:140px;text-align:center;display:inline-block;
+					margin:0 56px;width:160px;
+			  }
+		.mfoot p{color:#999;margin:40px 33px;height:150px;}
+		.mfoot .lunbo{margin:0 auto;text-align:center;width:1300px;}
+		/*优秀学员*/
+		
+		.footer .company{width:1270px;overflow:hidden;
+				margin:0 auto;
+				border:2px solid #eeeded;border-radius:5px;
+				background:white;
+		
+		}
+		.footer .line{background:white;padding:20px 0;}
+		.footer h2{width:1200px;max-width:1920px;
+					margin:0 auto;text-align:center;
+					padding-right:25px;padding-bottom:10px;
+					font-size:18px;padding:50px 0;
+		}
+		.footer .company div{width:200px;height:150px;
+							float:left;padding:0 27px;
+		}
+		.footer .company div a{
+			display:block;
+			width:165px;height:117px;
+			background:url("img/tast7/sprite.png") no-repeat scroll right -49px;
+		}
+		/*战略合作公司*/
+		
+		.footer .line li{float:left;margin-left:41px;list-style:outside;color:#999;width:80px;line-height25px;padding-bottom:1px;}
+		.footer .line ul{margin:0 auto;width:1200px;text-align:center;}
+		.footer .line a{color:#999;font-size:1em;}
+		.footer ul {width:1200px;max-width:1920px;overflow:hidden;margin:0 auto;}
+		.footer .line .app{margin-left:15px;}
+		.footer .line .app a{border-bottom:1px solid #29b078;}
+		.footer .line .first {margin-left:15px;}
+		
+		/*友情链接*/
+		.footer .bottom{background:#26a26f;overflow:hidden;color:white;}/*关于我们*/
+		.footer .bottom .about{width:1200px;overflow:hidden;margin:0 auto;}
+		.footer .bottom .bleft{color:white;width:216px;float:left;}
+		.footer .bottom .bleft ul{width:216px;}
+		.footer .bottom .bmain{width:216px;float:left;margin-left:277px;}
+		.footer .bottom .bright{width:97px;float:right;}
+		.footer .bottom .bleft a{color:white;}
+		.footer .bottom .bleft ul{padding:30px 0;}
+		.footer .bottom .bleft ul li{float:left;}
+		.footer .bottom .bleft ul .borderR{
+			border-left:1px solid white;border-right:1px solid white;
+			padding-left:5px;padding-right:5px;
+		}
+		.footer .bottom .bmain a{color:white;}
+		.footer .bottom .bmain ul{width:217px;}
+		.footer .bottom .bmain ul li{float:left;margin:5px 10px 5px auto;}/*3部分*/
+		
+		.footer .bottom .script1{text-align:center;border-top:1px solid #32c086}/*icp*/
+		/*底部*/
+		
+		/*hover部分*/
+		.header .hmain ul li:hover{
+			border-bottom:4px solid white;
+		}
+		.footer .company div:hover{
+			border-radius:5px;
+			box-shadow:1px 1px 1px 1px #999999;
+		}
+		.footer .line ul li .a1:hover{
+			border-bottom:1px solid #29b078;
+		}
+		.footer .bottom .about a:hover{
+			border-bottom:1px solid white;
+		}
+	</style>
+	<script type="text/javascript"></script>
+</head>
+<body>
+		<div class="header">
+				<div class="htop">
+					<span class="sP1">客服热线:010-5947-8634</span>
+					<ul>
+						<li class="weixin"><a href="#" alt="微信"></a></li>
+						<li class="QQ"><a href="#" alt="QQ"></a></li>
+						<li class="weibo"><a href="#" alt="微博"></a></li>
+					</ul>
+				</div>
+				<div class="hmain">
+					<div class="nav">
+						<ul>
+						<li class="index"><a href="#" alt="首页">首页</a></li>
+						<li class=""><a href="#" alt="职业">职业</a></li>
+						<li class=""><a href="#" alt="推荐">推荐</a></li>
+						<li class=""><a href="#" alt="关于">关于</a></li>
+						</ul>
+					</div>
+					<div class="banner">
+						<img src="img/tast7/banner.jpg"/>
+					</div>
+				</div>
+		</div>
+		<div class="main">
+			<div class="mtop">
+				<ul>
+					<li id="mtop-li1">
+						<div class="d1"></div>
+						<h3>高效</h3>
+						<p>将五到七年的成长时间，缩短到一年到三年。</p>
+					</li>
+					<li id="mtop-li2">
+						<div class="d1"></div>
+						<h3>规范</h3>
+						<p>标准的实战教程，不会走弯路。</p>
+					</li>
+					<li id="mtop-li3">
+						<div class="d1"></div>
+						<h3>人脉</h3>
+						<p>同班好友，同院学长，技术大师，入学就混入职脉圈，为以后铺平道路。</p>
+					</li>
+					<li id="mtop-li4">
+						<p class="P1">12400</p>
+						<span>累计在线学习人数</span>
+						<p class="P2">12400</p>
+						<span>学员已经找到满意工作</span>
+					</li>
+				</ul>
+			</div>
+			<div class="mmain">
+			<h2>如何学习</h2>
+					<ul>
+						<li class="list-1">
+								<span class="sP3">1</span>
+								匹配你现在的个人情况寻找适合自己的岗位
+						</li>
+						<li class="list-2">
+								<span class="sP3">2</span>
+								了解职业前景薪金待遇、竞争压力等
+						</li>
+						<li class="list-3">
+								<span class="sP3">3</span>
+								掌握行业内顶级技能
+						</li>
+						<li class="list-4">
+								<span class="sP3">4</span>
+								查看职业目标任务
+						</li>
+						<li class="list-5">
+								<span class="sP3">5</span>
+								参考学习资源，掌握技能点，逐个完成任务
+						</li>
+						<li class="list-6">
+								<span class="sP3">6</span>
+								加入班级，和小伙伴们互帮互助，一块学习
+						</li>
+						<li class="list-7">
+								<span class="sP3">7</span>
+								选择导师，一路引导，加速自己成长
+						</li>
+						<li class="list-8">
+								<span class="sP3">8</span>
+								完成职业技能，升级业界大牛
+						</li>
+					</ul>
+			</div>
+			<div class="mfoot">
+				<h2>优秀学员</h2>
+				<ul>
+					<li class="stlist-1">
+						<b>技术顾问:罗大佑</b>
+						<p>  百度技术总监：互联网基础服务领域，从事虚拟主机、云服务器、域名。曾任新网高级技术经理，负责技术研发、团队管理与建设。</p>
+					</li>
+					<li class="stlist-1">
+						<b>技术顾问:林忆莲</b>
+						<p>		  		百度技术总监：互联网基础服务领域，从事虚拟主机、云服务器、域名。曾任新网高级技术经理，负责技术研发、团队管理与建设。
+						</p>
+					</li>
+					<li class="stlist-1">
+						<b>技术顾问:梅艳芳</b>
+						<p>	百度技术总监：互联网基础服务领域，从事虚拟主机、云服务器、域名。曾任新网高级技术经理，负责技术研发、团队管理与建设。
+						</p>
+					</li>
+					<li class="stlist-1">
+						<b>技术顾问:李宗盛</b>
+						<p>百度技术总监：互联网基础服务领域，从事虚拟主机、云服务器、域名。曾任新网高级技术经理，负责技术研发、团队管理与建设。</p>
+					</li>
+				</ul>
+				<div class="lunbo"><img src="img/tast7/interim_03.png" style="padding-right:45px;padding-top:25px;"/></div>
+			</div>
+		</div>
+		<div class="footer">
+			<h2>战略合作公司</h2>
+			<div class="company">
+				<div class="Alibaba"><a href="#"></a></div>
+				<div class="jinyunshan"><a href="#"></a></div>
+				<div class="huanxin"><a href="#"></a></div>
+				<div class="yuntongxin"><a href="#"></a></div>
+				<div class="qiniu" style="padding-left:27px;"><a href="#"></a></div>
+			</div>
+			<div class="line">
+				<h2>友情链接</h2>
+				<ul>
+					<li class="app"><a href="#" class="a1">手机软件</a></li>
+					<li><a href="#" class="a1">教师招聘</a></li>
+					<li><a href="#" class="a1">找工作</a></li>
+					<li><a href="#" class="a1">手机软件</a></li>
+					<li><a href="#" class="a1">教师招聘</a></li>
+					<li><a href="#" class="a1">找工作</a></li>
+					<li><a href="#" class="a1">手机软件</a></li>
+					<li><a href="#" class="a1">教师招聘</a></li>
+					<li><a href="#" class="a1">找工作</a></li>
+					<li><a href="#" class="a1">手机软件</a></li>
+					<li class="first"><a href="#" class="a1">手机软件</a></li>
+					<li><a href="#" class="a1">教师招聘</a></li>
+					<li><a href="#" class="a1">找工作</a></li>
+					<li><a href="#" class="a1">手机软件</a></li>
+					<li><a href="#" class="a1">教师招聘</a></li>
+					<li><a href="#" class="a1">找工作</a></li>
+					<li><a href="#" class="a1">手机软件</a></li>
+					<li><a href="#" class="a1">教师招聘</a></li>
+					<li><a href="#" class="a1">找工作</a></li>
+					<li><a href="#" class="a1">手机软件</a></li>
+				</ul>
+			</div>
+			<div class="bottom">
+				<div class="about">
+					<div class="bleft">
+						<p style="padding:25px 0;">技能树 —— 改变你我</p>
+						<ul>
+							<li><a href="#" style="padding-right:5px;">关于我们</a></li>
+							<li class="borderR"><a href="#">联系我们</a></li>
+							<li><a href="#" style="padding-left:5px;">合作企业</a></li>
+						</ul>
+					</div>
+					<div class="bmain">
+						<p style="padding:25px 0;">旗下网站</p>
+						<ul>
+							<li><a href="#" style="padding-right:5px;">草船云孵化器</a></li>
+							<li class="borderR"><a href="#">最强IT特训营</a></li>
+							<li><a href="#" style="">葡萄藤轻游戏</a></li>
+							<li><a href="#" style="padding-left:5px;">桌游精灵</a></li>
+						</ul>
+					</div>
+					<div class="bright">
+						<p style="margin-top:25px;padding-bottom:95px;background:url(img/tast7/sprite.png)no-repeat -406px -383px;">微信公众平台</p>
+					</div>
+				</div>
+				<div class="script1">
+					<p style="font-size:0.8em;padding-left:289px">Copyright © 2015技能树 www.jnshu.com All Rights Reserved | 京ICP备13005880号</p>
+				</div>
+			</div>
+			
+		</div>
+</body>
+</html>

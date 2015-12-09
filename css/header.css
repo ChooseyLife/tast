@@ -1,0 +1,29 @@
+/*header*/
+	.header{height:110px;}
+	.header .htop{width:1200px;margin:0 auto;}
+	.header .htop .kefu{color:#29b078;font-size:16px;margin:6px auto;display:inline-block;}
+	.header .htop ul {overflow:hidden;float:right;width:117px;margin:6px auto;}
+	.header .htop ul li{float:left;}
+	.header .htop ul .weixin{background:url(../img/tast8/sprite.png)no-repeat;padding:12px 12.3px;}
+	.header .htop ul .QQ{padding:12px 13px;background:url(../img/tast8/sprite.png)no-repeat 0 -44px;margin:0 20px;}
+	.header .htop ul .weibo{padding:12px 13px;background:url(../img/tast8/sprite.png)no-repeat 0 -88px;}
+
+/*main*/	
+	.header .hmtop{width:1200px;margin:0 auto;}
+	.header .hmtop .jishu{
+			padding:25px;margin:15px auto;float:left;
+			background:url(../img/tast8/sprite.png)no-repeat right 0;width:58px;
+			}
+	.header .hmtop .nav{
+			float:right;width:1092px;
+	}
+	.header .hmtop .nav .shouye{border-bottom:4px solid white;}
+	.header .hmtop .nav ul{float:right}
+	.header .hmtop .nav ul li{float:left;padding:26px 25px;}
+	.header .hmtop .nav ul li a{font-size:16px;color:white;}
+	.header .hmtop .nav ul .guanyu{}
+	
+/*hover Nav部分*/
+	.header .hmtop .nav  ul li:hover{
+	border-bottom:4px solid white;/*导航*/
+}

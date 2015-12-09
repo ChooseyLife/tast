@@ -1,0 +1,69 @@
+body{background:#fafafa;}
+	@font-face {
+		 font-family: Hiragino Sans GB W3;
+		 src: url(family/HiraginoSansGBW3/HiraginoSansGBW3.otf);
+	}
+	p,span,h1,h2,h3,h4,h5,a{font-family: Hiragino Sans GB W3;}
+	
+	
+		/*banner*/
+	.main .banner{
+			background:#f1a750;
+			height:248px;margin:-5px auto;text-align:center;
+			width:1583px;
+	}
+	
+	/*合作企业*/
+	.main .company{overflow:hidden;width:1583px;}
+	.main .company .content{width:1200px;margin:0 auto;}
+	.main .company a{color:black;}
+	
+	/*companyName left*/
+	.main .content .companyName .left{width:260px;text-align:center;float:left;}
+	.main .content .companyName .left ul{
+				background:white;border:1px solid #e6e6e6;height:768px;
+	}
+	.main .content .companyName .left .name a{
+				display:block;width:92px;color:#29b078;
+	}
+	.main .content .companyName .left .name{
+			padding-top:30px;color:#29b078;
+			background:url("../img/tast8/sprite.png") repeat -10px -119px;
+			width:10px;margin:0 81px;
+	}
+	.main .content .companyName .left .hezuo{
+			border-bottom:1px solid #e6e6e6;font-weight:bold;
+			padding:20px;
+	}
+	.main .content .companyName .left .beijin{
+		margin-left:8px;
+	}
+	.main .content .companyName .left .tudou{
+		margin-left:-8px;
+		display:block;width:92px;color:#ff650e;font-weight:bold;
+	}
+	.main .content .companyName .left #name1{
+		background:url("../img/tast8/sprite.png") repeat 0 -119px;
+		padding-top:30px;color:#29b078;
+		width:10px;margin:0 81px;
+	}
+	/*about公司内容*/
+	.main .company .content .about{
+		width:878px;border:1px solid #e6e6e6;float:right;
+		background:#fff;color:#999;height:1104px;margin-bottom:155px;
+	}
+	.main .company .content .about .tdcompany{
+		background:url("../img/tast8/sprite.png") no-repeat scroll 84px -231px;
+		padding:25px 63px 30px 243px;width:565px;font-size:14px;
+		border-bottom:1px solid #e6e6e6;
+	}
+	.main .company .content .about .tdcontent{
+		padding:33px 32px 0;font-size:14px;text-indent:19px;line-height:29px;
+		width:733px;height:100px;margin:0 auto;
+	}
+	
+	
+	/*css3部分*/
+	.main .content .companyName .left .name:hover{
+		background:url("../img/tast8/sprite.png") repeat scroll 0 -119px;
+	}

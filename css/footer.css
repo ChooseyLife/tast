@@ -1,0 +1,61 @@
+	/*footer*/
+	.footer{background:#26a26f;color:white;font-size:14px;}
+	.footer a{color:white;}
+	
+	/*footerMain*/
+	.footer .footerMain{
+		width:100%;max-width:1200px;margin:0 auto;overflow:hidden;
+	}
+	.footer .footerMain .fMleft{
+		width:200px;float:left;
+	}
+	.footer .footerMain .fMmid{
+		width:225px;float:left;margin-left:125px;
+	}
+	.footer .footerMain .fMmid span{padding-right:25px}
+	.footer .footerMain .fMright{
+		width:195px;float:right;
+	}
+	.footer .footerMain .fMright .gongzhonghao{
+		padding:35px 0 93px;font-size:19px;
+		background:url("../img/tast8/sprite.png") no-repeat -406px -348px;
+	}
+	
+	.footer .footerMain .fMp{padding:35px 0;}
+	
+	.footer .footerMain .fMleft .fMspan{
+		border-left:1px solid;border-right:1px solid;
+		padding:0 8px;
+	}
+	/*ICP±¸ºÅ*/
+	.footer .ICP{
+		border-top:1px solid #32c086;
+		font-size:12px;margin:15px auto 0;text-align:center;
+	}
+	/*hover*/
+	.footer  a:hover{
+			border-bottom:1px solid white;
+		}
+		
+	@media (max-width: 320px){
+		.footer{
+			width:100%;
+			max-width:1600px;
+		}
+		.footer .footerMain .fMleft{
+			width:100%;
+			text-align:center;
+			font-size:1%;
+		}
+		.footer .footerMain .fMleft p{
+			padding:4%;
+		}
+		.footer .footerMain .fMmid{
+			width:75%;
+			margin:0 12.5%;
+		}
+		.footer .footerMain .fMp{
+			padding:3%;
+			text-align:center;
+		}
+	}
