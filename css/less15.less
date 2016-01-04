@@ -1,0 +1,295 @@
+@sprite-path:"../img/tast8/sprite.png";
+@banner:"../img/tast9/banner.jpg";
+@lv-color:#29b078;
+
+body{
+	background-color:#fafafa;
+}
+main{
+	background-color:#fafafa;
+}
+
+/*头部icon*/
+.icon{
+	color:@lv-color;
+	padding-top:1%;
+	padding-bottom:1%;
+}
+.icon .pull-icon{
+	padding:13px 13px;
+	float:right;
+	background:url(@sprite-path)no-repeat ;
+	margin-left:5px;
+}
+.icon .wb-ico{
+	background:url(@sprite-path)no-repeat left -88px;
+}
+.icon .qq-ico{
+	background:url(@sprite-path)no-repeat left -44px;
+}
+/*头部end*/
+
+
+/*导航nav*/
+.nav-bgcolor{
+	background-color:@lv-color;
+	height:100%;
+	min-height:66px;
+	max-height:91px;
+	padding-bottom:4px;
+}
+.nav-bgcolor a{
+	color:#fff;
+	padding-bottom:29px;
+	display:inline-block;
+	width:70px;
+	text-align:center;
+}
+.nav-bgcolor a:hover{
+	text-decoration:none;
+	color:#fff;
+	border-bottom:3px solid #fff;
+}
+.nav-bgcolor ul{
+	margin:0;
+}
+.nav-bgcolor ul li{
+	padding-top:30px;
+	height:78px;
+}
+.logo{
+	padding:27px;
+	background:url(@sprite-path)no-repeat -392px 0;
+	margin-top:1.5%;
+}
+.clear-pa{
+	padding-left:0;
+	padding-right:0;
+}
+#clear-padding{
+	padding-left:0;
+	padding-right:0;
+}
+#nav-pot{
+	padding-left:61px;
+}
+
+/*导航end*/
+
+/*main*/
+.current{
+	margin-top:2%;
+}
+.current p{
+	border-bottom:1px solid #d0d6d9;
+	padding-bottom:2%;
+}
+.current-color{
+	color:@lv-color;
+}
+
+.current ul{
+	border-bottom:1px solid #edf1f2;
+	padding:5px 0 15px;
+}
+.contact h4{
+	padding:10px 0 20px;
+	font-weight:bold;
+	border-bottom:1px solid #d0d6d9;
+}
+.item-hed h4{
+	font-weight:bold;
+	border-bottom:0;
+	padding:0;
+}
+.fx-f{
+	color:#a1a1a1;
+}
+.fx{
+	color:black;
+	cursor:pointer;
+}
+.fx:hover{
+	background-color:#29b078;
+	color:#fff;
+}
+
+/*card*/
+
+.contact .card{
+	position:relative;
+	float:left;
+	margin-bottom:2rem;
+}
+.contact ul li{
+}
+.contact p{
+	margin-bottom:0;
+}
+.contact span{
+	color:#a9a9a9;
+	padding:10px 5px 10px 0;
+	display:inline-block;
+}
+.contact .item {
+	background-color:#fff;
+}
+.contact .item-hed{
+	padding-bottom:10px;
+	border-bottom:1px solid #edf1f2;
+	margin-top:1rem;
+}
+
+.contact .item-main .item-main-hed{
+	border-bottom:1px solid #edf1f2;
+}
+.contact .item-main .grow{
+	border-right:1px solid #edf1f2;
+}
+
+.contact .item-main b{
+	color:red;
+}
+
+.item-main .item-main-hed .salary{
+	border-right:1px solid #edf1f2;
+	line-height:4rem;
+}
+.item-main .item-main-hed .year p{
+	border-bottom:1px solid #edf1f2;
+	padding:1px 0;
+}
+
+.item-main .stud{
+	font-size:18px;
+	font-weight:bold;
+	padding-top:5px;
+	padding-bottom:5px;
+	border-bottom:1px solid #edf1f2;
+}
+.item-main .tip{
+	font-size:12px;
+	color:#a1a1a1;
+	padding-top:1rem;
+	padding-bottom:1rem;
+}
+
+/*tran*/
+.tran{
+	position:absolute;
+	top:0;
+	color:#fff;
+	background-color:#000;
+	transform:rotateY(180deg);
+	max-width:340px;
+}
+
+.item, .tran{
+	border-radius:2px;
+	box-shadow:0 0 3px 2px #eeeded;
+	-webkit-backface-visibility:hidden;
+	backface-visibility:hidden;
+	-moz-backface-visibility
+	-webkit-transition:transform 1s;
+	transition:transform 1s;
+	-moz-transition:transform 1s;
+}
+.card:hover .tran {
+  -webkit-transform: rotateY(360deg);
+     -moz-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+		  opacity:1;
+}
+.card:hover .item {
+  -webkit-transform: rotateY(180deg);
+     -moz-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+.tran h3{
+	margin-top:4rem;
+}
+.tran p{
+	line-height:2rem;
+	padding:1rem 3rem 6rem;
+}
+/*card end*/
+
+
+/*footer*/
+
+.foot-bgcolor{
+	background-color:@lv-color;
+	color:#fff;
+}
+.foot-bgcolor a{
+	color:#fff;
+}
+.foot-bgcolor a:hover{
+	text-decoration:none;
+	color:#fff;
+}
+
+.about{
+	margin-top:2rem;
+	width:254px;
+}
+.about h5{
+	margin-bottom:3rem;
+	min-width:75px;
+}
+.about i{
+	padding:47px 46px;
+	background:url(@sprite-path) no-repeat right -408px;
+	display:inline-block;
+}
+.about .web{
+	max-width:180px;
+	width:100%;
+}
+.about .line{
+	border-left:1px solid;
+	border-right:1px solid;
+	padding-left:5px;
+	padding-right:5px;
+}
+.ICP{
+	border-top:1px solid ;
+	min-width:320px;
+}
+/*footer end*/
+
+
+/*media*/
+
+@media (max-width: 414px){
+	.nav-bgcolor{
+		min-height:42px;
+	}
+	.nav-bgcolor ul li{
+		padding-top:3%;
+		height:42px;
+	}
+	.nav-bgcolor a{
+		padding-bottom:18%;
+	}
+	#nav-pot{
+		padding-left:0;
+	}
+}
+
+
+@media (max-width: 320px){
+	body{
+		font-size:32.5%;
+	}
+	#nav-pot{
+		padding-left:0;
+	}
+	.nav-bgcolor{
+		padding-bottom:0;
+	}
+	.nav-bgcolor a{
+		width:55px;
+		padding-bottom:21%;
+	}
+}

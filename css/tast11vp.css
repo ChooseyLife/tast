@@ -1,0 +1,42 @@
+@media (max-width: 320px){
+	html{
+		font-size:22.5%;
+		zoom:.5;
+	}
+	.wrap .header{width:98%;line-height:normal;}
+	.wrap .header a{padding:1.98% 3%;}
+	.wrap .Nav .Nav-wrap{
+		background:url(../img/tast11/sprite.png)no-repeat -366% -3%;
+	}
+	.wrap .banner img{
+		margin-bottom:-5px;
+	}
+	.wrap .content .content-left{
+		width:50%;
+		float:none;
+		margin:0 auto;
+		margin-bottom:3%;
+	}
+	.content .content-right .jieshao{
+		background:url(../img/tast11/tudou.png)no-repeat 5% 50%;
+	}
+	.footer .footmain .ftleft{
+		width:60%;
+		float:none;
+		margin:0 auto;
+	}
+	.footer .footmain .ftmid{
+		width:60%;
+		margin-left:0;
+		float:none;
+		margin:0 auto;
+	}
+	.footer .footmain .ftright{
+		width:25%;float:none;
+		margin:0 auto;
+	}
+	.footer .footmain .ftright p{
+		padding:30% 4% 65% 7%;
+		background:url(../img/tast11/sprite.png)no-repeat 111% 101%;
+	}
+}

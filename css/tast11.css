@@ -1,0 +1,210 @@
+html{font-size:62.5%;background:#fafafa;}
+	@font-face {
+		 font-family: Hiragino Sans GB W3;
+		 src: url(../family/HiraginoSansGBW3/HiraginoSansGBW3.otf);
+	}
+	/* header */
+	.wrap .header{
+		font-size:1.4rem;
+		color:#29b078;
+		max-width:1200px;width:100%;
+		margin:0 auto;
+		padding:1%;
+		overflow:hidden;
+		line-height:149%;
+	}
+	.wrap .header a{
+			background:url(../img/tast11/sprite.png)no-repeat 0 1px;
+			padding:1.2% 1.2%;margin:0 1%;
+			float:right;
+			margin-top:-0.4%;
+	}
+	
+	/*end*/
+	
+	/*Nav*/
+	.wrap .Nav{
+			background-color:#29b078;
+	}
+	.wrap .Nav .Nav-wrap{
+		width:100%;max-width:1200px;
+		margin:0 auto;
+		overflow:hidden;
+		font-size:1.6rem;
+		background:url(../img/tast11/sprite.png)no-repeat -56% -5%;
+	}
+	.Nav .Nav-wrap div{
+		float:right;
+		padding:3% 2%;
+	}
+	.wrap .Nav .Nav-wrap a{color:white;}
+	.Nav .Nav-wrap .shouye{border-bottom:2px solid white;}
+	
+	/*end*/
+	
+	/*banner*/
+	.wrap .banner{
+		margin:0 auto;
+		text-align:center;
+		background-color:#f0a851;
+	}
+	.wrap .banner img{
+		width:75.806%;
+	}
+	
+	/*end*/
+	
+	/*crumbs*/
+	.wrap .crumbs{
+		width:100%;max-width:1200px;
+		margin:2% auto;
+		font-size:1.6rem;
+	}
+	.wrap .crumbs span{
+		color:#29b078;
+	}
+	/*end*/
+	
+	/*content*/
+	
+	.wrap .content{
+		width:100%;max-width:1200px;
+		margin:0 auto;
+		overflow:hidden;
+	}
+	.wrap .content .content-left{
+		float:left;
+		width:20%;
+		text-align:center;
+		border:1px solid #ededed;
+		box-shadow:1px 1px 1px #ededed;
+		font-size:1.4rem;
+		background-color:#fff;
+	}
+	.wrap .content .content-left h2{
+		padding:13.13%;
+		font-size:1.6rem;
+		border-bottom:1px solid #e6e6e6;
+	}
+	.wrap .content .content-left span{
+		color:#29b078;
+	}
+	.content .content-left .company-list{
+		padding:10%;
+		width:80%;
+	}
+	.content-left .company-list .bg-img{
+		background:url(../img/tast11/sprite.png)no-repeat 2% 31.96%;
+		padding-left:7%;
+		margin-right:1%;
+	}
+	.content-left .company-list .bg-img1{
+		background:url(../img/tast11/sprite.png)no-repeat -0.6% 31.96%;
+		padding-left:7%;
+		margin-right:2%;
+	}
+	.content-left .company-list .bg-img2{
+		margin-left:9%;
+		background:url(../img/tast11/sprite.png)no-repeat 2% 31.96%;
+		padding-left:7%;
+	}
+	.wrap .content .content-left .origin{	
+		color:#f1a750;
+	}
+	
+	/*content-right*/
+	.wrap .content .content-right{
+		width:100%;
+		max-width:915px;
+		float:right;
+		border:1px solid #ededed;
+		background-color:#fff;
+		color:#aeaeae;
+		font-size:1.4rem;
+		padding-bottom:10%;
+		margin-bottom:15%;
+	}
+	.content .content-right .jieshao{
+		padding:2% 7% 2% 32%;
+		background:url(../img/tast11/sprite.png)no-repeat 20% 63%;
+		line-height:170%;
+		border-bottom:1px solid #e6e6e6;
+		width:61.001%;
+	}
+	.content .content-right .neirong{
+		padding:4% 11% 1% 10%;
+		text-indent:3%;
+		line-height:180%;
+		width:79.002%;
+	}
+	/*end*/
+	
+	/*footer*/
+	.wrap .footer{
+		background-color:#26a26f;
+		width:100%;
+		color:#fff;
+	}
+	.wrap .footer .footmain{
+		width:100%;max-width:1200px;
+		margin:0 auto;
+		font-size:1.6rem;
+		color:#fff;
+		overflow:hidden;
+		padding-bottom:2%;
+	}
+	.footer .footmain  p{
+		padding:17% 0 20% 0;
+	}
+	.footer .footmain  a{
+		color:#fff;
+		font-size:1.4rem;
+	}
+	
+	.footmain .ftleft .line{
+		border-left:1px solid #fff;
+		border-right:1px solid #fff;
+		padding-left:4%;
+		padding-right:4%;
+	}
+	.footer .footmain .ftleft{
+		width:20%;
+		float:left;
+	}
+	.footer .footmain .ftmid{
+		width:16%;
+		float:left;
+		margin-left:26%;
+	}
+	.footer .footmain .ftmid p{
+		padding:21% 0 7% 0;
+	}
+	.footer .footmain .ftmid a{
+		margin:10% 0 0% 0;
+		display:inline-block;
+	}
+	.footer .footmain .ftright{
+		float:right;
+		width:8%;
+	}
+	.footer .footmain .ftright p{
+		padding:48% 4% 100% 7%;
+		background:url(../img/tast11/sprite.png)no-repeat 100% 100%;
+	}
+	
+	.footer .footICP{
+		border-top:1px solid #32c086;
+		font-size:1.2rem;
+		margin:0 auto;
+		text-align:center;
+	}
+	.footer .footICP p{
+		padding:.4% 0 .4% 0;
+		font-size:1.4rem;
+	}
+	/*end*/
+	border-bottom:1px solid #32c086;
+	
+	
+	
+	
